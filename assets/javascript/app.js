@@ -104,7 +104,7 @@ function newQuestion(){
 }
 
 function countdown(){
-	seconds = 15;
+	seconds = 10;
 	$('#timeLeft').html('<h3>Time Remaining: ' + seconds + '</h3>');
 	answered = true;
 	//sets timer to go down
@@ -145,10 +145,10 @@ function answerPage(){
 	}
 	
 	if(currentQuestion == (triviaQuestions.length-1)){
-		setTimeout(scoreboard, 2000)
+		setTimeout(scoreboard, 1300)
 	} else{
 		currentQuestion++;
-		setTimeout(newQuestion, 2000);
+		setTimeout(newQuestion, 1300);
     }
 }
 
