@@ -41,6 +41,10 @@ h2, #message, #finalMessage{
     color:white;
 }
 
+#correctAnswers , #incorrectAnswers , #unanswered {
+    color:white;
+    font-size: 25px;
+}
 .thisChoice{
     font-size: 25px;
 }
